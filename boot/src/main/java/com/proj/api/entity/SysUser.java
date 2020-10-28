@@ -1,6 +1,10 @@
 package com.proj.api.entity;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonInclude;
 
+@TableName(value = "SYS_USER")
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class SysUser {
 
   private String id;

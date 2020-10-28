@@ -15,6 +15,6 @@ public class SysUserServiceImpl implements SysUserService {
 
     @Override
     public List<SysUser> findSysUser() {
-        return sysUserMapper.querySysUser();
+        return sysUserMapper.selectList(null);
     }
 }
