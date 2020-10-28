@@ -1354,3 +1354,193 @@ Caused by: java.net.SocketException: Connection reset by peer: socket write erro
 2020-10-28 10:43:35,941 +0800 | DEBUG | org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
 2020-10-28 10:43:36,038 +0800 | DEBUG | org.springframework.core.log.LogFormatUtils - Writing [[SysUser{id='46D29B44E40C4545BA55104DD03DE963', username='liwenjin@zq.gd.csg.cn', nickname='李文*', ci (truncated)...]
 2020-10-28 10:43:36,695 +0800 | DEBUG | org.springframework.web.servlet.FrameworkServlet - Completed 200 OK
+2020-10-28 11:18:12,454 +0800 | INFO | org.springframework.boot.StartupInfoLogger - Starting Application on DESKTOP-551N529 with PID 4692 (E:\proproject\proj\boot\build\classes\java\main started by Y in E:\proproject\proj)
+2020-10-28 11:18:12,502 +0800 | INFO | org.springframework.boot.SpringApplication - The following profiles are active: youth,oracle,produce
+2020-10-28 11:18:38,055 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'mgroupDao' and 'com.youth.web.system.rbac.dao.MgroupDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,057 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'permissionDao' and 'com.youth.web.system.rbac.dao.PermissionDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,057 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'permRelDao' and 'com.youth.web.system.rbac.dao.PermRelDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,060 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'permTagDao' and 'com.youth.web.system.rbac.dao.PermTagDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,060 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'ptagDao' and 'com.youth.web.system.rbac.dao.PtagDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,061 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'resourceOperationDao' and 'com.youth.web.system.rbac.dao.ResourceOperationDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,061 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'rgroupDao' and 'com.youth.web.system.rbac.dao.RgroupDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,062 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'roleDao' and 'com.youth.web.system.rbac.dao.RoleDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,062 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'rolePermissionDao' and 'com.youth.web.system.rbac.dao.RolePermissionDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,063 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'ugroupDao' and 'com.youth.web.system.rbac.dao.UgroupDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,063 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'ugroupRoleDao' and 'com.youth.web.system.rbac.dao.UgroupRoleDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,064 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'userDao' and 'com.youth.web.system.rbac.dao.UserDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,065 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'userHistoryDao' and 'com.youth.web.system.rbac.dao.UserHistoryDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,065 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'userRoleDao' and 'com.youth.web.system.rbac.dao.UserRoleDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,066 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'userUgroupDao' and 'com.youth.web.system.rbac.dao.UserUgroupDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,066 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'auditLogDao' and 'com.youth.web.system.support.log.dao.AuditLogDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,067 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'loginLogDao' and 'com.youth.web.system.support.log.dao.LoginLogDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,067 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'msgDao' and 'com.youth.web.system.support.log.dao.MsgDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,068 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'warningDao' and 'com.youth.web.system.support.log.dao.WarningDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,069 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'configDao' and 'com.youth.web.system.system.dao.ConfigDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,070 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'configSafeDao' and 'com.youth.web.system.system.dao.ConfigSafeDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,071 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'dicDao' and 'com.youth.web.system.system.dao.DicDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,071 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'dicItemDao' and 'com.youth.web.system.system.dao.DicItemDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,072 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'elementDao' and 'com.youth.web.system.system.dao.ElementDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,075 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'interfaceDao' and 'com.youth.web.system.system.dao.InterfaceDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,076 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'menuDao' and 'com.youth.web.system.system.dao.MenuDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,077 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'orgDao' and 'com.youth.web.system.system.dao.OrgDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,077 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'orgHistoryDao' and 'com.youth.web.system.system.dao.OrgHistoryDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,077 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'personnelDao' and 'com.youth.web.system.system.dao.PersonnelDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,078 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'personnelHistoryDao' and 'com.youth.web.system.system.dao.PersonnelHistoryDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,079 +0800 | WARN | org.mybatis.logging.Logger - Skipping MapperFactoryBean with name 'userSafeDao' and 'com.youth.web.system.system.dao.UserSafeDao' mapperInterface. Bean already defined with the same name!
+2020-10-28 11:18:38,082 +0800 | INFO | org.springframework.context.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'system-mybatisPlusConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-10-28 11:18:38,083 +0800 | INFO | org.springframework.context.annotation.ConfigurationClassPostProcessor - Cannot enhance @Configuration bean definition 'yfs-mybatisConfig' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2020-10-28 11:18:38,911 +0800 | INFO | com.youth.common.tool.SpringEnvironmentHolder - SpringEnvironmentHolder中的environment被注入
+2020-10-28 11:18:38,919 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'framework-shiroConfig' of type [com.youth.web.framework.platform.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$89f99fa4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:40,719 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.youth.web.boot.autoconfigure.YouthShiroAutoConfiguration' of type [com.youth.web.boot.autoconfigure.YouthShiroAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:44,139 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfig' of type [com.proj.framework.shiro.config.ShiroConfig$$EnhancerBySpringCGLIB$$aa7e28ef] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:44,245 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'simpleCookie' of type [org.apache.shiro.web.servlet.SimpleCookie] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:44,331 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'defaultWebSessionManager' of type [org.apache.shiro.web.session.mgt.DefaultWebSessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:44,729 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'ehCacheManager' of type [org.apache.shiro.cache.ehcache.EhCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:44,770 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'system-shiroConfig' of type [com.youth.web.system.shiro.config.SystemShiroConfig$$EnhancerBySpringCGLIB$$44db8dc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:44,866 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroDbRealm' of type [com.youth.web.system.shiro.realm.ShiroDbRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:44,986 +0800 | INFO | org.apache.shiro.cache.ehcache.EhCacheManager - Cache with name 'com.youth.web.system.shiro.realm.ShiroDbRealm.authorizationCache' does not yet exist.  Creating now.
+2020-10-28 11:18:45,211 +0800 | INFO | org.apache.shiro.cache.ehcache.EhCacheManager - Added EhCache named [com.youth.web.system.shiro.realm.ShiroDbRealm.authorizationCache]
+2020-10-28 11:18:45,220 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'customWebSecurityManager' of type [com.youth.web.framework.platform.shiro.CustomWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:45,418 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:45,552 +0800 | INFO | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'youth-com.youth.boot.autoconfigure.properties.YouthProperties' of type [com.youth.boot.autoconfigure.properties.YouthProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-10-28 11:18:48,491 +0800 | INFO | org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8085 (http)
+2020-10-28 11:18:48,552 +0800 | INFO | org.apache.juli.logging.DirectJDKLog - Initializing ProtocolHandler ["http-nio-8085"]
+2020-10-28 11:18:48,555 +0800 | INFO | org.apache.juli.logging.DirectJDKLog - Starting service [Tomcat]
+2020-10-28 11:18:48,562 +0800 | INFO | org.apache.juli.logging.DirectJDKLog - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2020-10-28 11:18:49,510 +0800 | INFO | org.apache.juli.logging.DirectJDKLog - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:18:49,510 +0800 | DEBUG | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2020-10-28 11:18:49,511 +0800 | INFO | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 36816 ms
+2020-10-28 11:18:50,521 +0800 | DEBUG | org.springframework.web.filter.GenericFilterBean - Filter 'corsFilter' configured for use
+2020-10-28 11:18:55,881 +0800 | INFO | com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-10-28 11:18:56,264 +0800 | WARN | com.alibaba.druid.pool.DruidAbstractDataSource - oracle.jdbc.driver.OracleDriver is deprecated.Having use oracle.jdbc.OracleDriver.
+2020-10-28 11:18:56,670 +0800 | WARN | com.alibaba.druid.pool.DruidDataSource - removeAbandoned is true, not use in production.
+2020-10-28 11:19:02,579 +0800 | INFO | com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-10-28 11:19:07,876 +0800 | ERROR | com.baomidou.mybatisplus.core.MybatisConfiguration - mapper[com.youth.web.system.rbac.dao.RolePermissionDao.selectByRoleIds] is ignored, because it exists, maybe from xml file
+2020-10-28 11:19:14,576 +0800 | WARN | org.springframework.context.support.AbstractApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseValidator': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.proj.tookit.excel.validator.BaseValidator] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+2020-10-28 11:19:14,577 +0800 | INFO | com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-10-28 11:19:14,888 +0800 | INFO | com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-10-28 11:19:14,909 +0800 | INFO | org.apache.juli.logging.DirectJDKLog - Stopping service [Tomcat]
+2020-10-28 11:19:14,951 +0800 | INFO | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-28 11:19:15,158 +0800 | ERROR | org.springframework.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'baseValidator': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.proj.tookit.excel.validator.BaseValidator] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1286)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1201)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.proj.Application.main(Application.java:20)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.proj.tookit.excel.validator.BaseValidator] from ClassLoader [sun.misc.Launcher$AppClassLoader@18b4aac2]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:481)
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267)
+	... 19 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/proj/tookit/excel/row/RowData
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+	at java.lang.Class.getDeclaredMethods(Class.java:1975)
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:463)
+	... 21 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.proj.tookit.excel.row.RowData
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 25 common frames omitted
+2020-10-28 11:19:15,176 +0800 | WARN | org.springframework.boot.SpringApplication - Unable to close ApplicationContext
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'framework-shiroConfig' defined in URL [jar:file:/F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/com.youth/youth-web-framework/2.0.2/9bc67730732fb24227e78d0fcc46538fbdd590cc/youth-web-framework-2.0.2.jar!/com/youth/web/framework/platform/shiro/config/ShiroConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:512)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.retrieveApplicationListeners(AbstractApplicationEventMulticaster.java:245)
+	at org.springframework.context.event.AbstractApplicationEventMulticaster.getApplicationListeners(AbstractApplicationEventMulticaster.java:197)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:134)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:81)
+	at org.springframework.boot.availability.AvailabilityChangeEvent.publish(AvailabilityChangeEvent.java:67)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:167)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:978)
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:814)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:325)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.proj.Application.main(Application.java:20)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'framework-shiroConfig' defined in URL [jar:file:/F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/com.youth/youth-web-framework/2.0.2/9bc67730732fb24227e78d0fcc46538fbdd590cc/youth-web-framework-2.0.2.jar!/com/youth/web/framework/platform/shiro/config/ShiroConfig.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:251)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1141)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:1114)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:506)
+	... 18 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Initialization of bean failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:409)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:91)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:109)
+	at org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator.findCandidateAdvisors(AnnotationAwareAspectJAutoProxyCreator.java:92)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:341)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 40 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importRegistry' available
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanDefinition(DefaultListableBeanFactory.java:814)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getMergedLocalBeanDefinition(AbstractBeanFactory.java:1282)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:297)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor.postProcessBeforeInitialization(ConfigurationClassPostProcessor.java:456)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1788)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 63 common frames omitted
