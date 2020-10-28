@@ -1744,3 +1744,16 @@ Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No b
 2020-10-28 11:28:43,540 +0800 | INFO | com.youth.web.system.global.task.UserSafeTask - 临时用户超期扫描任务：执行成功
 2020-10-28 11:28:43,552 +0800 | INFO | com.youth.web.framework.platform.toolkit.UserUtil - get current login user error, nologin
 2020-10-28 11:28:43,751 +0800 | INFO | com.youth.web.system.global.task.UserSafeTask - 用户超过三个月未使用扫描任务：开始执行
+2020-10-28 11:29:51,540 +0800 | INFO | com.youth.web.framework.platform.toolkit.UserUtil - get current login user error, nologin
+2020-10-28 11:29:51,663 +0800 | INFO | com.youth.web.system.global.task.UserSafeTask - 用户超过三个月未使用扫描任务：执行成功
+2020-10-28 11:32:44,711 +0800 | INFO | org.apache.juli.logging.DirectJDKLog - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:32:44,712 +0800 | INFO | org.springframework.web.servlet.FrameworkServlet - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:32:44,718 +0800 | DEBUG | org.springframework.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2020-10-28 11:32:45,000 +0800 | DEBUG | org.springframework.web.servlet.FrameworkServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2020-10-28 11:32:45,001 +0800 | INFO | org.springframework.web.servlet.FrameworkServlet - Completed initialization in 288 ms
+2020-10-28 11:32:45,139 +0800 | INFO | org.apache.shiro.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2020-10-28 11:32:45,182 +0800 | DEBUG | org.springframework.core.log.LogFormatUtils - GET "/proj/api/sysuser/findSysUser", parameters={}
+2020-10-28 11:32:45,202 +0800 | DEBUG | org.springframework.web.servlet.handler.AbstractHandlerMapping - Mapped to com.proj.controller.SysUserController#findSysUser()
+2020-10-28 11:36:07,647 +0800 | DEBUG | org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor - Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2020-10-28 11:36:07,840 +0800 | DEBUG | org.springframework.core.log.LogFormatUtils - Writing [[SysUser{id='46D29B44E40C4545BA55104DD03DE963', username='liwenjin@zq.gd.csg.cn', nickname='李文*', ci (truncated)...]
+2020-10-28 11:36:08,170 +0800 | DEBUG | org.springframework.web.servlet.FrameworkServlet - Completed 200 OK

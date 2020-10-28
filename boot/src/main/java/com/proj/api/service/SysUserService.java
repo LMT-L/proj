@@ -1,6 +1,6 @@
-package com.proj.service;
+package com.proj.api.service;
 
-import com.proj.entity.SysUser;
+import com.proj.api.entity.SysUser;
 
 import java.util.List;
 

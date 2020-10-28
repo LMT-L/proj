@@ -1,4 +1,4 @@
-package com.proj.entity;
+package com.proj.api.entity;
 
 
 public class SysUser {

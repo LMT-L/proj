@@ -1,8 +1,8 @@
-package com.proj.service.Impl;
+package com.proj.api.service.Impl;
 
-import com.proj.dao.SysUserMapper;
-import com.proj.entity.SysUser;
-import com.proj.service.SysUserService;
+import com.proj.api.dao.SysUserMapper;
+import com.proj.api.entity.SysUser;
+import com.proj.api.service.SysUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
