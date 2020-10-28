@@ -1,0 +1,4 @@
+rootProject.name = 'proj'
+include 'boot'
+include 'proj-core'
+

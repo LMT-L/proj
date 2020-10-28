@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.xmlgraphics:batik-gvt:1.10">
+    <CLASSES>
+      <root url="jar://F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gvt/1.10/7091974abb3f57141f29aa94d2fbf8a06d22f837/batik-gvt-1.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/org.apache.xmlgraphics/batik-gvt/1.10/7ddf15bad10839a32400121b3756b3f2c8a846b8/batik-gvt-1.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.shiro:shiro-cache:1.4.2">
+    <CLASSES>
+      <root url="jar://F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/org.apache.shiro/shiro-cache/1.4.2/a8a839a4783ce1d3cd0b97945d6fb6be0745cfd1/shiro-cache-1.4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/org.apache.shiro/shiro-cache/1.4.2/9efe8d0e55489640f1a88db7cdd44ac1e0dd9fe6/shiro-cache-1.4.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

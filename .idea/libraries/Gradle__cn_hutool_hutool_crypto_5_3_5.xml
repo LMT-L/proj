@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.hutool:hutool-crypto:5.3.5">
+    <CLASSES>
+      <root url="jar://F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/cn.hutool/hutool-crypto/5.3.5/54637bf81f2fa6c610462989469881aa5f3234f8/hutool-crypto-5.3.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://F:/gradle-5.6.4/.gradle/caches/modules-2/files-2.1/cn.hutool/hutool-crypto/5.3.5/7334f5377e1b0b2c72d34149decb525cc0e05b7f/hutool-crypto-5.3.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
