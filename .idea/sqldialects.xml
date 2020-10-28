@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://F:/zw/oracle/全量脚本/全量数据.sql" dialect="Oracle" />
+    <file url="file://F:/zw/oracle/全量脚本/全量表.sql" dialect="Oracle" />
+  </component>
+</project>

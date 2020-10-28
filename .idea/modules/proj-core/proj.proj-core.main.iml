@@ -142,8 +142,8 @@
     <orderEntry type="library" name="Gradle: org.apache.ws.commons.axiom:axiom-api:1.2.20" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.woden:woden-core:1.0M10" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.ws.commons.axiom:axiom-impl:1.2.20" level="project" />
-    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.apache.ws.commons.axiom:axiom-dom:1.2.20" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-compress:1.18" level="project" />
     <orderEntry type="library" name="Gradle: com.github.virtuald:curvesapi:1.06" level="project" />
     <orderEntry type="library" name="Gradle: com.oracle.jdbc:ojdbc6:11.1.0.6.0" level="project" />
@@ -203,8 +203,8 @@
     <orderEntry type="library" name="Gradle: org.mybatis:mybatis-spring:2.0.3" level="project" />
     <orderEntry type="library" name="Gradle: jakarta.validation:jakarta.validation-api:2.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.codehaus.woodstox:stax2-api:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: com.baomidou:mybatis-plus-annotation:3.3.1" level="project" />
     <orderEntry type="library" name="Gradle: com.github.jsqlparser:jsqlparser:3.1" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Gradle: org.projectlombok:lombok:1.18.2" level="project" />
