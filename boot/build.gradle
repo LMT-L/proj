@@ -19,6 +19,10 @@ war {
 bootWar {
     classifier = 'boot'  //  修改 bootWar 的文件名称 , 这一步是为了区分可执行 war 与 正常 war
 }
+repositories {
+    maven { url 'https://maven.aliyun.com/repository/public/' }
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
@@ -26,7 +30,11 @@ dependencies {
 
     compile ("com.youth:youth-web-system-ui:${youthToolVersion}")
     compile ("com.youth:youth-web-boot-starter:${youthToolVersion}")
-// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-test
-    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '2.1.1.RELEASE'
-    implementation fileTree(dir:'lib',include:'*.*')
+    // https://mvnrepository.com/artifact/com.alibaba/fastjson
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.58'
+    // https://mvnrepository.com/artifact/org.json/json
+    compile group: 'org.json', name: 'json', version: '20160810'
+// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-aop', version: '2.3.4.RELEASE'
+
 }

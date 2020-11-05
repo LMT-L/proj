@@ -1,24 +1,31 @@
 package com.proj.api.entity;
 
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonInclude;
+
+import java.util.Date;
 
 @TableName(value = "SYS_USER")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class SysUser {
-
-  private String id;
-  private String username;
-  private String nickname;
-  private String cipherCode;
-  private String type;
-  private String state;
-  private String nature;
-  private String invalidTime;
-  private String createTime;
-  private String modifyTime;
-  private String tenantId;
-  private String revision;
+    private String id;
+    private String username;
+    private String nickname;
+    @JsonIgnore
+    private String cipherCode;
+    private String type;
+    private String state;
+    private String nature;
+    @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd hh:mm:ss")
+    private String invalidTime;
+    @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd hh:mm:ss")
+    private Date createTime;
+    @JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd hh:mm:ss")
+    private Date modifyTime;
+    private String tenantId;
+    private String revision;
 
 
   public String getId() {
@@ -93,21 +100,21 @@ public class SysUser {
   }
 
 
-  public String getCreateTime() {
-    return createTime;
+  public long getCreateTime() {
+    return createTime.getTime();
   }
 
-  public void setCreateTime(String createTime) {
-    this.createTime = createTime;
+  public void setCreateTime(long createTime) {
+      this.createTime = new Date(createTime);
   }
 
 
-  public String getModifyTime() {
-    return modifyTime;
+  public long getModifyTime() {
+    return modifyTime.getTime();
   }
 
-  public void setModifyTime(String modifyTime) {
-    this.modifyTime = modifyTime;
+  public void setModifyTime(long modifyTime) {
+    this.modifyTime = new Date(modifyTime);
   }
 
 
