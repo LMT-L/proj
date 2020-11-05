@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper
-        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
-        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.proj.api.dao.SysUserMapper">
-    <select id="queryUser" resultType="com.proj.api.entity.User">
-        select USERNAME username,USERNAME password,USERNAME perms from PROJ.SYS_USER where USERNAME=#{username}
-    </select>
-</mapper>
